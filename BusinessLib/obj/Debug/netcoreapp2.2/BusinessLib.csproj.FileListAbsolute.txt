@@ -1,0 +1,9 @@
+D:\UKChinaTravel\UKChinaTravel\BusinessLib\bin\Debug\netcoreapp2.2\BusinessLib.deps.json
+D:\UKChinaTravel\UKChinaTravel\BusinessLib\bin\Debug\netcoreapp2.2\BusinessLib.dll
+D:\UKChinaTravel\UKChinaTravel\BusinessLib\bin\Debug\netcoreapp2.2\BusinessLib.pdb
+D:\UKChinaTravel\UKChinaTravel\BusinessLib\obj\Debug\netcoreapp2.2\BusinessLib.csprojAssemblyReference.cache
+D:\UKChinaTravel\UKChinaTravel\BusinessLib\obj\Debug\netcoreapp2.2\BusinessLib.csproj.CoreCompileInputs.cache
+D:\UKChinaTravel\UKChinaTravel\BusinessLib\obj\Debug\netcoreapp2.2\BusinessLib.AssemblyInfoInputs.cache
+D:\UKChinaTravel\UKChinaTravel\BusinessLib\obj\Debug\netcoreapp2.2\BusinessLib.AssemblyInfo.cs
+D:\UKChinaTravel\UKChinaTravel\BusinessLib\obj\Debug\netcoreapp2.2\BusinessLib.dll
+D:\UKChinaTravel\UKChinaTravel\BusinessLib\obj\Debug\netcoreapp2.2\BusinessLib.pdb

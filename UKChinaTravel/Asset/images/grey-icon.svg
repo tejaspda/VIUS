@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="24px" viewBox="0 0 18 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 58 (101010) - https://sketch.com -->
+    <title>D5C63184-52B7-4E65-BB94-ABC255F353EC</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <polygon id="path-1" points="0 0.0004 17.9998 0.0004 17.9998 24 0 24"></polygon>
+    </defs>
+    <g id="ukvi-china-web" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="4.4-upload-documents" transform="translate(-258.000000, -696.000000)">
+            <g id="Group-24" transform="translate(242.000000, 586.000000)">
+                <g id="Group-6-Copy" transform="translate(0.000000, 98.000000)">
+                    <g id="Successful-upload" transform="translate(16.000000, 12.000000)">
+                        <g id="Group-3">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <g id="Clip-2"></g>
+                            <path d="M17.9998,24.0004 L-0.0002,24.0004 L-0.0002,0.0004 L13.4858,0.0004 C15.9788,0.0004 17.9998,2.0084 17.9998,4.4844 L17.9998,24.0004 Z" id="Fill-1" fill="#E0E5EA" mask="url(#mask-2)"></path>
+                        </g>
+                        <polyline id="Stroke-4" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" points="4.8358 12.9408 7.4938 15.3338 13.3438 9.7508"></polyline>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
