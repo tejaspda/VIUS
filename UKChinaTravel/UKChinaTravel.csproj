@@ -9,7 +9,20 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Resources\ExpressLocalizationResource.cs" />
+    <Compile Remove="Resources\ViewLocalizationResource.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Remove="Resources\ExpressLocalizationResource.zh.resx" />
+    <EmbeddedResource Remove="Resources\ViewLocalizationResource.zh.resx" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="LazZiya.ExpressLocalization" Version="3.1.1" />
+    <PackageReference Include="LazZiya.TagHelpers.Localization" Version="1.1.0" />
     <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Localization" Version="2.2.0" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc.TagHelpers" Version="2.2.0" />
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.2.3" />

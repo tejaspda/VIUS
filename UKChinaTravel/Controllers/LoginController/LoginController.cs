@@ -11,7 +11,7 @@ namespace UKChinaTravel.Controllers.Folder
     public class LoginController : Controller
     {
         // GET: /<controller>/
-        public IActionResult Index(UserInfo user )
+        public IActionResult Index()
         {
             return View();
         }

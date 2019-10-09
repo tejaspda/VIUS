@@ -2,6 +2,47 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v2.2": {
+      "LazZiya.ExpressLocalization/3.1.1": {
+        "type": "package",
+        "dependencies": {
+          "LazZiya.TagHelpers": "2.2.1",
+          "Microsoft.AspNetCore.Identity": "2.0.4",
+          "Microsoft.AspNetCore.Mvc.Localization": "2.0.0",
+          "Microsoft.AspNetCore.Mvc.RazorPages": "2.0.0"
+        },
+        "compile": {
+          "lib/netcoreapp2.2/LazZiya.ExpressLocalization.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.2/LazZiya.ExpressLocalization.dll": {}
+        }
+      },
+      "LazZiya.TagHelpers/2.2.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Localization": "1.0.0",
+          "Microsoft.AspNetCore.Mvc.TagHelpers": "2.0.0",
+          "Microsoft.AspNetCore.Routing": "2.2.0"
+        },
+        "compile": {
+          "lib/netcoreapp2.2/LazZiya.TagHelpers.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.2/LazZiya.TagHelpers.dll": {}
+        }
+      },
+      "LazZiya.TagHelpers.Localization/1.1.0": {
+        "type": "package",
+        "dependencies": {
+          "LazZiya.ExpressLocalization": "3.0.0"
+        },
+        "compile": {
+          "lib/netcoreapp2.2/LazZiya.TagHelpers.Localization.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.2/LazZiya.TagHelpers.Localization.dll": {}
+        }
+      },
       "Microsoft.AspNet.WebApi.Client/5.2.6": {
         "type": "package",
         "dependencies": {
@@ -4737,6 +4778,66 @@
     }
   },
   "libraries": {
+    "LazZiya.ExpressLocalization/3.1.1": {
+      "sha512": "0QZX/KV6ejb/sQoX+NKnkoAeQ9klHjc1dlLsaU+grObAtUSQnZe3oFPr/hjRACZKTaulUQ3KxrgcMYq3HtUybQ==",
+      "type": "package",
+      "path": "lazziya.expresslocalization/3.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.png",
+        "lazziya.expresslocalization.3.1.1.nupkg.sha512",
+        "lazziya.expresslocalization.nuspec",
+        "lib/netcoreapp2.0/LazZiya.ExpressLocalization.dll",
+        "lib/netcoreapp2.0/LazZiya.ExpressLocalization.xml",
+        "lib/netcoreapp2.1/LazZiya.ExpressLocalization.dll",
+        "lib/netcoreapp2.1/LazZiya.ExpressLocalization.xml",
+        "lib/netcoreapp2.2/LazZiya.ExpressLocalization.dll",
+        "lib/netcoreapp2.2/LazZiya.ExpressLocalization.xml",
+        "lib/netcoreapp3.0/LazZiya.ExpressLocalization.dll",
+        "lib/netcoreapp3.0/LazZiya.ExpressLocalization.xml",
+        "license.txt"
+      ]
+    },
+    "LazZiya.TagHelpers/2.2.1": {
+      "sha512": "T22uSFXCBAf/Qotq/0Q8NTc1djLgQeU1yU73SmvtJ7cUOED4ojtQu5Hbl2Ugkfkg/dmZw4PoH6kvswS5m+uAkg==",
+      "type": "package",
+      "path": "lazziya.taghelpers/2.2.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lazziya.taghelpers.2.2.1.nupkg.sha512",
+        "lazziya.taghelpers.nuspec",
+        "lib/netcoreapp1.0/LazZiya.TagHelpers.dll",
+        "lib/netcoreapp1.0/LazZiya.TagHelpers.xml",
+        "lib/netcoreapp1.1/LazZiya.TagHelpers.dll",
+        "lib/netcoreapp2.0/LazZiya.TagHelpers.dll",
+        "lib/netcoreapp2.1/LazZiya.TagHelpers.dll",
+        "lib/netcoreapp2.2/LazZiya.TagHelpers.dll",
+        "license.txt"
+      ]
+    },
+    "LazZiya.TagHelpers.Localization/1.1.0": {
+      "sha512": "bGJvbMei9q9bfRTyrkair0yWpm+UyoXehIrZnfUUIUCk7Q5pC6Q6wyhadx5Tp+2PG7movKtrrJHC1ppvw30wfg==",
+      "type": "package",
+      "path": "lazziya.taghelpers.localization/1.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.png",
+        "lazziya.taghelpers.localization.1.1.0.nupkg.sha512",
+        "lazziya.taghelpers.localization.nuspec",
+        "lib/netcoreapp2.0/LazZiya.TagHelpers.Localization.dll",
+        "lib/netcoreapp2.0/LazZiya.TagHelpers.Localization.xml",
+        "lib/netcoreapp2.1/LazZiya.TagHelpers.Localization.dll",
+        "lib/netcoreapp2.1/LazZiya.TagHelpers.Localization.xml",
+        "lib/netcoreapp2.2/LazZiya.TagHelpers.Localization.dll",
+        "lib/netcoreapp2.2/LazZiya.TagHelpers.Localization.xml",
+        "lib/netcoreapp3.0/LazZiya.TagHelpers.Localization.dll",
+        "lib/netcoreapp3.0/LazZiya.TagHelpers.Localization.xml",
+        "license.txt"
+      ]
+    },
     "Microsoft.AspNet.WebApi.Client/5.2.6": {
       "sha512": "owAlEIUZXWSnkK8Z1c+zR47A0X6ykF4XjbPok4lQKNuciUfHLGPd6QnI+rt/8KlQ17PmF+I4S3f+m+Qe4IvViw==",
       "type": "package",
@@ -12945,7 +13046,10 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.2": [
       "BusinessLib >= 1.0.0",
+      "LazZiya.ExpressLocalization >= 3.1.1",
+      "LazZiya.TagHelpers.Localization >= 1.1.0",
       "Microsoft.AspNetCore.App >= 2.2.0",
+      "Microsoft.AspNetCore.Mvc.Localization >= 2.2.0",
       "Microsoft.AspNetCore.Mvc.TagHelpers >= 2.2.0",
       "Microsoft.AspNetCore.Razor.Design >= 2.2.0",
       "Microsoft.NETCore.App >= 2.2.0",
@@ -12997,11 +13101,23 @@
     "frameworks": {
       "netcoreapp2.2": {
         "dependencies": {
+          "LazZiya.ExpressLocalization": {
+            "target": "Package",
+            "version": "[3.1.1, )"
+          },
+          "LazZiya.TagHelpers.Localization": {
+            "target": "Package",
+            "version": "[1.1.0, )"
+          },
           "Microsoft.AspNetCore.App": {
             "suppressParent": "All",
             "target": "Package",
             "version": "[2.2.0, )",
             "autoReferenced": true
+          },
+          "Microsoft.AspNetCore.Mvc.Localization": {
+            "target": "Package",
+            "version": "[2.2.0, )"
           },
           "Microsoft.AspNetCore.Mvc.TagHelpers": {
             "target": "Package",

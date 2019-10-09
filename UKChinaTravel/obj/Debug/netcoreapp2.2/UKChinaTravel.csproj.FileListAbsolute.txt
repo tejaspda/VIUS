@@ -19,8 +19,15 @@ D:\UKChinaTravel\UKChinaTravel\UKChinaTravel\bin\Debug\netcoreapp2.2\BusinessLib
 D:\UKChinaTravel\UKChinaTravel\UKChinaTravel\obj\Debug\netcoreapp2.2\UKChinaTravel.TagHelpers.input.cache
 D:\UKChinaTravel\UKChinaTravel\UKChinaTravel\obj\Debug\netcoreapp2.2\UKChinaTravel.TagHelpers.output.cache
 D:\UKChinaTravel\UKChinaTravel\UKChinaTravel\obj\Debug\netcoreapp2.2\UKChinaTravel.RazorCoreGenerate.cache
-D:\UKChinaTravel\UKChinaTravel\UKChinaTravel\obj\Debug\netcoreapp2.2\Razor\Views\Login\Index.g.cshtml.cs
 D:\UKChinaTravel\UKChinaTravel\UKChinaTravel\obj\Debug\netcoreapp2.2\UKChinaTravel.RazorTargetAssemblyInfo.cs
 D:\UKChinaTravel\UKChinaTravel\UKChinaTravel\obj\Debug\netcoreapp2.2\UKChinaTravel.Views.pdb
 D:\UKChinaTravel\UKChinaTravel\UKChinaTravel\obj\Debug\netcoreapp2.2\UKChinaTravel.csproj.CopyComplete
 D:\UKChinaTravel\UKChinaTravel\UKChinaTravel\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.g.cshtml.cs
+D:\UKChinaTravel\UKChinaTravel\UKChinaTravel\obj\Debug\netcoreapp2.2\UKChinaTravel.csproj.GenerateResource.cache
+D:\UKChinaTravel\UKChinaTravel\UKChinaTravel\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.g.cshtml.cs
+D:\UKChinaTravel\UKChinaTravel\UKChinaTravel\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.g.cshtml.cs
+D:\UKChinaTravel\UKChinaTravel\UKChinaTravel\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_LanguagePartial.g.cshtml.cs
+D:\UKChinaTravel\UKChinaTravel\UKChinaTravel\obj\Debug\netcoreapp2.2\Razor\Views\Login\Index.g.cshtml.cs
+D:\UKChinaTravel\UKChinaTravel\UKChinaTravel\bin\Debug\netcoreapp2.2\zh-CN\UKChinaTravel.resources.dll
+D:\UKChinaTravel\UKChinaTravel\UKChinaTravel\obj\Debug\netcoreapp2.2\UKChinaTravel.Resources.Views.Login.Index.zh-CN.resources
+D:\UKChinaTravel\UKChinaTravel\UKChinaTravel\obj\Debug\netcoreapp2.2\zh-CN\UKChinaTravel.resources.dll

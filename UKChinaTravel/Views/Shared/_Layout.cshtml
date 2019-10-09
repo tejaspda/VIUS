@@ -1,0 +1,56 @@
+﻿@using System.Globalization
+@{
+    var culture = CultureInfo.CurrentCulture.Name;
+    var dirCss = CultureInfo.CurrentCulture.TextInfo.IsRightToLeft ? "rtl" : "ltr";
+    
+        ViewData["Title"] = "Welcome";
+
+}
+
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="~/Asset/css/bootstrap.min.css">
+    <link rel="stylesheet" href="~/Asset/css/styles.css">
+    <link rel="stylesheet" href="~/Asset/font-awesome/css/font-awesome.min.css">
+    <title><localize>@ViewData["Title"]</localize> UKVI-CHINA</title>
+    <nav class="navbar navbar-expand-lg navbar-light text-vfs py-4 border-bottom">
+        <a class="navbar-brand mr-auto p-0" href="#">
+            <img src="~/Asset/images/VFS_Global_Logo_Blue.png" class="logo" width="175"
+                 alt="Vfs Logo">
+        </a>
+        <form class="form-inline">
+            @*<div class="dropdown">
+                <button class="btn dropdown-toggle text-vfs" type="button" id="dropdownMenuButton"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    English
+                </button>
+                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="#">China</a>
+                </div>*@
+                <partial name="_LanguagePartial" />
+            </div>
+        </form>
+        <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button> -->
+        </div>
+    </nav>
+
+
+</head>
+
+<body>
+    <div>
+        @RenderBody()
+    </div>
+</body>
+</html>

@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.2",
-    "signature": "9730342b7b575aaeb702fae13ca2a10b3cc123ef"
+    "signature": "0d96a5297e59b9b1341ac4152258770898d1e1af"
   },
   "compilationOptions": {
     "defines": [
@@ -25,7 +25,10 @@
       "UKChinaTravel/1.0.0": {
         "dependencies": {
           "BusinessLib": "1.0.0",
+          "LazZiya.ExpressLocalization": "3.1.1",
+          "LazZiya.TagHelpers.Localization": "1.1.0",
           "Microsoft.AspNetCore.App": "2.2.0",
+          "Microsoft.AspNetCore.Mvc.Localization": "2.2.0",
           "Microsoft.AspNetCore.Mvc.TagHelpers": "2.2.0",
           "Microsoft.AspNetCore.Razor.Design": "2.2.0",
           "Microsoft.NETCore.App": "2.2.0",
@@ -34,8 +37,60 @@
         "runtime": {
           "UKChinaTravel.dll": {}
         },
+        "resources": {
+          "zh-CN/UKChinaTravel.resources.dll": {
+            "locale": "zh-CN"
+          }
+        },
         "compile": {
           "UKChinaTravel.dll": {}
+        }
+      },
+      "LazZiya.ExpressLocalization/3.1.1": {
+        "dependencies": {
+          "LazZiya.TagHelpers": "2.2.1",
+          "Microsoft.AspNetCore.Identity": "2.2.0",
+          "Microsoft.AspNetCore.Mvc.Localization": "2.2.0",
+          "Microsoft.AspNetCore.Mvc.RazorPages": "2.2.0"
+        },
+        "runtime": {
+          "lib/netcoreapp2.2/LazZiya.ExpressLocalization.dll": {
+            "assemblyVersion": "3.1.1.0",
+            "fileVersion": "3.1.1.0"
+          }
+        },
+        "compile": {
+          "lib/netcoreapp2.2/LazZiya.ExpressLocalization.dll": {}
+        }
+      },
+      "LazZiya.TagHelpers/2.2.1": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Localization": "2.2.0",
+          "Microsoft.AspNetCore.Mvc.TagHelpers": "2.2.0",
+          "Microsoft.AspNetCore.Routing": "2.2.0"
+        },
+        "runtime": {
+          "lib/netcoreapp2.2/LazZiya.TagHelpers.dll": {
+            "assemblyVersion": "2.2.1.0",
+            "fileVersion": "2.2.1.0"
+          }
+        },
+        "compile": {
+          "lib/netcoreapp2.2/LazZiya.TagHelpers.dll": {}
+        }
+      },
+      "LazZiya.TagHelpers.Localization/1.1.0": {
+        "dependencies": {
+          "LazZiya.ExpressLocalization": "3.1.1"
+        },
+        "runtime": {
+          "lib/netcoreapp2.2/LazZiya.TagHelpers.Localization.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        },
+        "compile": {
+          "lib/netcoreapp2.2/LazZiya.TagHelpers.Localization.dll": {}
         }
       },
       "Microsoft.CodeAnalysis.CSharp.Workspaces/2.8.0": {
@@ -3556,6 +3611,27 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "LazZiya.ExpressLocalization/3.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0QZX/KV6ejb/sQoX+NKnkoAeQ9klHjc1dlLsaU+grObAtUSQnZe3oFPr/hjRACZKTaulUQ3KxrgcMYq3HtUybQ==",
+      "path": "lazziya.expresslocalization/3.1.1",
+      "hashPath": "lazziya.expresslocalization.3.1.1.nupkg.sha512"
+    },
+    "LazZiya.TagHelpers/2.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-T22uSFXCBAf/Qotq/0Q8NTc1djLgQeU1yU73SmvtJ7cUOED4ojtQu5Hbl2Ugkfkg/dmZw4PoH6kvswS5m+uAkg==",
+      "path": "lazziya.taghelpers/2.2.1",
+      "hashPath": "lazziya.taghelpers.2.2.1.nupkg.sha512"
+    },
+    "LazZiya.TagHelpers.Localization/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bGJvbMei9q9bfRTyrkair0yWpm+UyoXehIrZnfUUIUCk7Q5pC6Q6wyhadx5Tp+2PG7movKtrrJHC1ppvw30wfg==",
+      "path": "lazziya.taghelpers.localization/1.1.0",
+      "hashPath": "lazziya.taghelpers.localization.1.1.0.nupkg.sha512"
     },
     "Microsoft.CodeAnalysis.CSharp.Workspaces/2.8.0": {
       "type": "package",
